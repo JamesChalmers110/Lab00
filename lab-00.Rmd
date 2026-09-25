@@ -17,13 +17,13 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "Alice", "Bob", 
-           "Charlie", "Dan"),
-  github_username = c("mcgregors-garden", "AliceTheOne", "BobTheTwo", 
-                      "CharlieTheThree", "DanTheFour"), 
-  colour = c("powderblue", "Red", "Green", 
+  name = c("James", "A", "B", 
+           "C", "D"),
+  github_username = c("JamesChalmers110","One", "Two", 
+                      "Three", "Four"), 
+  colour = c("Red", "Yellow", "Green", 
              "Black", "Blue"),
-  hobby = c("Hopping", "Sitting", "Standing", 
+  hobby = c("Climbing", "Sitting", "Standing", 
             "Stalling", "Sleeping"),
   favourite_number = c(2, 7, 3, 9, 1)
   )
